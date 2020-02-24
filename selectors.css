@@ -1,0 +1,92 @@
+body {
+margin: 0;
+padding: 0;
+justify-content: center;
+aligh-items: center;
+align: center;
+background: #C7D0C7;
+}
+
+#i {
+margin-top: 100px;
+}
+
+#full {
+border: none;
+-webkit-transition: box-shadow 2s ease-out;
+-moz-transition: box-shadow 2s ease-out;
+-o-transition: box-shadow 2s ease-out;
+transition: box-shadow 2s ease-out;
+padding: 10px;
+margin-left: 50px;
+margin-right: 50px;
+letter-spacing: 1px;
+text-align: center;
+margin: center;
+margin-bottom: 100px;
+font-size: 20px;
+}
+
+#full:hover {
+box-shadow: 0 0 20px black;
+cursor: pointer;
+transition: 1.5s;
+box-shadow: 0 0 20px black;
+margin-left: 50px;
+margin-right: 50px;
+padding: 10px;
+}
+
+#title {
+cursor: pointer;
+-webkit-transition: color 2s ease-in-out;
+-moz-transition: color 2s ease-in-out;
+-o-transition: color 2s ease-in-out;
+transition: color 2s ease-in-out;
+font-size: 1.5em;
+font-family: 'Consolas';
+text-align: center;
+padding: 50px;
+}
+
+#title:hover {
+color: #CA251A;
+transition: 7.5s;
+}
+
+#gif {
+-webkit-transition: box-shadow 2s ease-out;
+-moz-transition: box-shadow 2s ease-out;
+-o-transition: box-shadow 2s ease-out;
+transition: box-shadow 2s ease-out;
+border-radius: 50px;
+margin-bottom: 50px;
+}
+
+#gif:hover {
+transition: 1s;
+box-shadow: 0 0 20px black;
+opacity: 1;
+}
+
+.but {
+-webkit-transition: box-shadow 2s ease-out;
+-o-transition: box-shadow 2s ease-out;
+-moz-transition: box-shadow 2s ease-out;
+transition: box-shadow 2s ease-out;
+margin: 0;
+padding: 0;
+border: 1px solid gray;
+padding: 10px;
+letter-spacing: 2px;
+text-decoration: none;
+}
+
+.but:hover {
+background-color: #C7D0C7;
+color: black;
+margin: 0;
+transition: 1.5s;
+box-shadow: 0 0 20px black;
+border-radius: 4px;
+}
